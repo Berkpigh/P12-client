@@ -1,6 +1,6 @@
 const FetchGetProjets = async (url) => {
   //const fullUrl = '/api/v1/' + url
-  const fullUrl = 'https://p12-server-335r.onrender.com/' + url
+  const fullUrl = 'https://p12-server-335r.onrender.com/api/v1/' + url
   //console.log(url)
   try {
     const res = await fetch(fullUrl, {
