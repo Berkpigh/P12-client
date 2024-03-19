@@ -1,0 +1,79 @@
+_type: export
+__export_format: 4
+__export_date: 2024-03-17T20:35:09.688Z
+__export_source: insomnia.desktop.app:v8.6.1
+resources:
+  - _id: req_318f59ae73804272b897fc43d29d760b
+    parentId: wrk_398d5b552e0b4a5d833e9b0f96eec058
+    modified: 1710693644292
+    created: 1710346814614
+    url: https://p12-server-335r.onrender.com/api/v1/projets
+    name: Lire les projets
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/8.6.1
+    authentication: {}
+    metaSortKey: -1710346814614
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_398d5b552e0b4a5d833e9b0f96eec058
+    parentId: null
+    modified: 1709913855144
+    created: 1709913855144
+    name: Epoque
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_dc1a2b2ebc8d4315aa167a5588182d0c
+    parentId: wrk_398d5b552e0b4a5d833e9b0f96eec058
+    modified: 1710693316282
+    created: 1709930521701
+    url: https://p12-server-335r.onrender.com/api/v1/epoques
+    name: Lire les epoques
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/8.6.1
+    authentication: {}
+    metaSortKey: -1709930521701
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_8b0aa3f59cb70cab16c8ecabab89ec0c192c45ef
+    parentId: wrk_398d5b552e0b4a5d833e9b0f96eec058
+    modified: 1709913855145
+    created: 1709913855145
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1709913855145
+    _type: environment
+  - _id: jar_8b0aa3f59cb70cab16c8ecabab89ec0c192c45ef
+    parentId: wrk_398d5b552e0b4a5d833e9b0f96eec058
+    modified: 1709913855146
+    created: 1709913855146
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
