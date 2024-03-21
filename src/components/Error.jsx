@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 function Error() {
   return (
-    <div className="m-auto h-400px w-412px smpb:w-720px mdpb:w-920px text-0.75rem flex justify-between">
+    <div className="m-auto h-400px w-screen smpb:w-720px mdpb:w-920px text-0.75rem flex justify-between">
       <div className="m-auto my-16flex flex-col items-center justify-between">
         <p className=" text-1.2rem text-red-fonce">404</p>
         <p className="text-1.2rem text-red-fonce">
